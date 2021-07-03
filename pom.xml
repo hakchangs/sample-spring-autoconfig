@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sample</groupId>
+  <artifactId>maven-multi-module</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <!-- "pom" 으로 패키징해야 하위 모듈에서 임포트 가능 -->
+  <packaging>pom</packaging>
+  <name>sample-maven-multi-module</name>
+  
+  <!-- 하위 모듈 -->
+  <modules>
+  	<module>maven-autoconfig-module</module>
+  </modules>
+  
+</project>

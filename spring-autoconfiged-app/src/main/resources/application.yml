@@ -1,0 +1,5 @@
+# autoconfig 속성값 설정
+sample:
+  some:
+    service-name: "setted-on-props"
+    active: true
